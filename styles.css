@@ -11,7 +11,7 @@
     border: 2px solid purple;
 }
 
-nav{ 
+nav { 
     position: fixed;
     top: 2%;
     left: 0;
@@ -23,13 +23,13 @@ border: 2px solid yellow;
 
 }
 
-.products1{
+.products1 {
  height: 155vh;
  border: 2px solid pink;
  
 }
 
-.images-products1{
+.images-products1 {
     display: grid;
     grid-template-columns: 45% 45%;
     width: 66vw;
@@ -52,15 +52,15 @@ border: 2px solid yellow;
     width: 100%;
     border: 2px solid black;
 }
-.mconsole{
-    height: vh;
+.mconsole {
+    height: 20vh;
 }
-.banner2{
+.banner2 {
     height: 58vh;
     border: 2px solid purple;
 }
 
-.products2{
+.products2 {
     height: 168vh;
     border: 2px solid pink;
 }
@@ -81,7 +81,7 @@ border: 2px solid yellow;
    
 }
 
-footer{
+footer {
     height: 35vh;
     border: 2px solid violet;
 }
