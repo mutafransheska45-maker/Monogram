@@ -75,6 +75,27 @@ nav{
     color:white;
 }
 
+.con{
+    border: 2px solid brown;
+    width: 30vw;
+    height: 40vh;
+}
+
+.outer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 20px;
+    border: 2px solid red;
+    width: 100vw;
+}
+
+.con-container{
+    display:flex;
+    justify-content: center;
+    border: 2px solid orange;
+    height: 130vh;
+} */
+
 .products1 {
  height: 155vh;
  border: 2px solid pink;
