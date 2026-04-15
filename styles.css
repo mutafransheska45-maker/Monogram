@@ -27,9 +27,23 @@ body{
 
 }
 
-.banner1 {
+.banner1:not(.ontop){
+    background-image: url(images/shop_cta_xl_896f6b8270.webp);
+    background-position: center;
+    filter: brightness(40%);
+    background-size: cover;
     height: 79.3vh;
     border: 2px solid purple;
+}
+
+.center{
+    border: 2px solid red;
+    color: #efc2b3;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+
+
 }
 
 #firstban{
@@ -46,10 +60,6 @@ body{
     height: 60vh;
     width: 100vw;
     object-fit: cover;
-}
-
-img:not(#secondban){
-    filter: brightness(50%);
 }
 
 
