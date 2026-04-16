@@ -15,7 +15,7 @@ body{
     position: fixed;
     top: 2%;
     width:97vw;
-    height: 6vh;
+    height: 6.5vh;
    background-color: #1a2456;
    margin-left: 1%;
    
@@ -28,30 +28,50 @@ body{
 }
 
 .banner1 {
+    background-image: url(images/shop_cta_xl_896f6b8270.webp);
+    background-color: rgba(0, 0, 0, 0.6);
+     background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
     height: 79.3vh;
     border: 2px solid purple;
 }
 
-#firstban{
-    height: 79.3vh;
-    width: 100vw;
-    object-fit: cover;
+#workflow{
+    /* border: 2px solid red; */
+    position: absolute;
+    top: 30.5%;
+    width: 100%;
+    text-align: center;
+    color:#efc2b3;
 }
-.banner2 {
+
+.for{
+    display: block;
+    padding-left: 0.1%;
+}
+
+.work{
+    letter-spacing: 3px;
+    font-size: 176%;
+    font-weight: 520;
+    line-height: 125%;
+}
+
+.discover{
+    line-height: 37px;
+    padding-right: 1%;
+    font-size: small;
+    font-weight: 300;
+}
+
+.banner2{
+   background-image: url(images/shop-banner-module.webp);
+    background-size: cover;
+    background-position: center;
     height: 60vh;
     border: 2px solid purple;
 }
-
-#secondban{
-    height: 60vh;
-    width: 100vw;
-    object-fit: cover;
-}
-
-img:not(#secondban){
-    filter: brightness(50%);
-}
-
 
 nav{ 
     position: fixed;
@@ -75,11 +95,16 @@ nav{
     color:white;
 }
 
-.products1 {
- height: 155vh;
- border: 2px solid pink;
- width: 100vw;
- 
+.downward{
+     display: block;
+     text-align: center;
+     width: 100vw;
+     position: absolute;
+     top: 70%;
+     padding-right: 1.5%;
+     color: white;
+     font-size: x-large;
+     /* border: 2px solid red; */
 }
 
 .images-products1 {
@@ -89,9 +114,9 @@ nav{
     gap: 1%;
    margin-top: 1%;
    margin-bottom: 20%;
-   margin-left: 20%;
-  
+   margin-left: 20%; 
 }
+
 .img1 {
     height: 41vh;
     width: 100%;
@@ -139,8 +164,66 @@ nav{
 }
 
 footer {
-    height: 35vh;
+    height: 40vh;
     border: 2px solid violet;
     width: 100vw;
     background-color: #1a2456 ;
+}
+
+.flex{
+    color:#efc2b3;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 3%;
+    letter-spacing: 1px;
+    padding-left: 5% ;
+}
+
+.mono{
+    font-size: 4px;
+    margin-bottom: 8%;
+    font-weight: lighter;
+}
+
+.addy{
+    font-size: 10px;
+}
+
+#email{
+    background-color: #1a2456;
+    border: 1px solid white;
+    font-size: xx-small;
+    padding-left: 1%;
+    height: 4vh;
+}
+
+#submit{
+     display: inline-block;
+    border-radius: 10px ;
+    width: 20%;
+    height: 4vh;
+    background-color:#efc2b3;
+    color:#1a2456;
+    border: none;
+}
+
+.text{
+    font-size: xx-small;
+}
+
+.icons a{
+font-size: medium;
+text-decoration: none;
+color:white;
+}
+
+.cpy{
+    line-height: 40px;
+    font-size: smaller;
+}
+
+.mother p{
+    line-height: 18px;
 }
